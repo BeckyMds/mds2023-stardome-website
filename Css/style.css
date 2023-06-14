@@ -8,6 +8,9 @@ body {
     color: #fff;
   }
 
+  main{
+    height: 100%;
+  }
 .photolink{
     display: flex;
 }
@@ -33,9 +36,10 @@ body {
 }
 
 footer{
+   
     height: 320px;
     background-color: #070202;
-    position: absolute;
+    
     width: 100%;
     left: 0;
     bottom: 0;
