@@ -8,9 +8,11 @@ body {
     color: #fff;
   }
 
-  main{
+main{
     height: 100%;
   }
+
+  /* Header */
 .photolink{
     display: flex;
 }
@@ -24,6 +26,57 @@ body {
 .header-container{
     display: flex;
 }
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: none;
+  }
+  
+  .menu li {
+    padding: 10px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
 .InfoPanel{
     display: flex;
     background-color: #ffffff;
