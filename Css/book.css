@@ -8,6 +8,18 @@ top: 48px;
 background: radial-gradient(85.66% 96.02% at 105.86% 109.25%, #CB1557 0%, #FFFFFF 0.01%, #CB1557 12.29%, #E71A3F 31.56%, #D44752 44.06%, #DD754E 58.22%, rgba(71, 53, 109, 0.66) 73.41%, rgba(24, 8, 17, 0.14) 85.36%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
 }
 
+main{
+    display: flex;
+
+}
+.box1{
+    background-color: #CB1557;
+    width: 550px;
+    height: 550px;
+    
+
+}
+
 .box2{
     background-color: black;
     width: 550px;
@@ -27,4 +39,7 @@ background: radial-gradient(85.66% 96.02% at 105.86% 109.25%, #CB1557 0%, #FFFFF
 .box2 p {
     color: aliceblue;
     text-align: center;
+}
+p{
+    color: #FFFFFF;
 }
