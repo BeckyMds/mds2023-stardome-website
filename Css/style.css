@@ -67,6 +67,7 @@ main{
     }
   }
 
+  .InfoPanel p {color: #070202;}
 
 
 
@@ -75,7 +76,7 @@ main{
 
 
 
-
+/* main */
 
 .InfoPanel{
     display: flex;
@@ -87,7 +88,33 @@ main{
     left: calc(50% - 1200px/2);
     top: 669px;
 }
+.square{
 
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  padding: 5px;
+}
+.InfoPanel3{
+  display: flex;
+  flex-direction: column;
+  max-width: auto;
+}
+.InfoPanel2{
+  
+  max-width: auto;
+}
+.InfoPanel1{
+  
+  max-width: auto;
+}
+
+
+
+
+
+
+/* footer */
 footer{
    
     height: 320px;
