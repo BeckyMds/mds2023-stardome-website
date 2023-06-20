@@ -44,3 +44,11 @@ footer{
     left: 0;
     bottom: 0;
 }
+img{
+
+}
+
+svg{
+    max-height: 50px;
+    width: auto;
+}
