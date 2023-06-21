@@ -1,0 +1,28 @@
+body{
+    position: relative;
+    width: 1280px;
+    height: 1320px;
+    background: linear-gradient(180deg, rgba(39, 36, 50, 0.2) 0%, rgba(59, 41, 131, 0.2) 34.37%, rgba(35, 35, 35, 0.2) 100%), #000000;  	                                                                        
+}
+
+main{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.uploadbox{
+    width: 500px ;
+    height: 500px;
+    background-color: rgb(111, 111, 111);
+    border-radius: 10px;
+}
+p{
+    color: aqua;
+}
+h1{
+    color: aqua;
+}
+.tandc{
+    display: flex;
+    
+}
