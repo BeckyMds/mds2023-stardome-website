@@ -1,9 +1,11 @@
 body{
-position: relative;
-width: max-content;
-height: 832px;
-left: 48px;
-top: 48px;
+    margin: 0 auto;
+    padding: 0px;
+	 width: auto;
+    position: relative;
+    height: 832px;
+    left: 48px;
+    top: 48px;
 
 background: radial-gradient(85.66% 96.02% at 105.86% 109.25%, #CB1557 0%, #FFFFFF 0.01%, #CB1557 12.29%, #E71A3F 31.56%, #D44752 44.06%, #DD754E 58.22%, rgba(71, 53, 109, 0.66) 73.41%, rgba(24, 8, 17, 0.14) 85.36%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
 }
@@ -13,9 +15,6 @@ main{
 
 }
 .box1{
-    background-color: #CB1557;
-    width: 550px;
-    height: 550px;
     
 
 }
@@ -27,6 +26,52 @@ main{
     border-radius: 10%;
     
 }
+.calendar{
+    display: flex;
+}
+.ticketgroup{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px
+}
+.ticketbox{
+     display: flex;
+    width: 430px;
+    height: 64px;
+    padding: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7px;
+    background: #DD754E;
+
+}
+.ticketwords{
+
+    display: flex;
+    width: 279px;
+    align-items: flex-start;
+    flex-shrink: 0;
+
+}
+.ticketwords p {
+    display: flex;
+    height: 32px;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    margin: 0%;
+    padding: 0%;
+
+}
+.numberbox{
+    display: flex;   
+}
+
+
+
+
+
 .orderbox{
     display: flex;
     flex-direction: column;
